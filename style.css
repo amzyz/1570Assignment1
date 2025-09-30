@@ -1,0 +1,136 @@
+/* global styles */
+body {
+    font-family: 'Lora', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #011936;
+    margin-top: 20px;
+  }
+
+h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5em;
+    color: #011936;
+    margin-top: 20px;
+  }
+
+/* navigation bar styles */
+  .navbar {
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #011936;
+    text-align: center;
+    padding: 17px 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .navbar a:hover {
+    color: #f39c12;
+  }
+  
+  .navbar a.active {
+    text-decoration: underline;
+  }
+
+  /* span styles */
+  .upcoming {
+    font-style: italic;
+    color: #91110d;
+  }
+  
+  .watched {
+    text-decoration: line-through;
+    color: rgb(196, 202, 32);
+  }
+  
+  /* table styles */
+  table {
+    border-collapse: collapse; 
+    width: 90%;                
+    margin: 20px auto;         
+  }
+  
+  th, td {
+    text-align: center;
+    border: 1px solid #999;  
+    padding: 10px;             
+    
+  }
+  
+  th {
+    background-color: #011936; 
+    color: white;              
+  }
+
+  /* footer styles */
+  footer {
+    background-color: #011936;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+
+  /*center divs*/
+  div {
+    margin: 0 auto;     
+    max-width: 900px;    
+    text-align: center; 
+  }
+  /* imgs responsive and centered*/
+  img {
+    display: block;      
+    margin: 20px auto; 
+    max-width: 90%;      
+    height: auto; 
+  }
+
+  /* featured content */
+  .featured {
+    background-color: #ecf0f1; 
+    border: 2.5px solid #bdc3c7; 
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 800px;         
+    text-align: center;
+  }
+
+  /* dark mode */
+  .inverted {
+    background-color:#011936;
+    color: #fdfdfd;
+  }
+  .inverted a {
+    color: #f39c12;
+  }
+  .inverted h1, .inverted h2 {
+    color: #fdfdfd;         
+  }
+  
+.inverted .navbar {
+        background-color: #fdfdfd;
+}
+.inverted .navbar a {
+        color: #011936;
+}
+.inverted .navbar a:hover {
+        color: #f39c12;
+}
