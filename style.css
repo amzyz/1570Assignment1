@@ -67,6 +67,7 @@ h2 {
   
   /* style article and aside */
   article {
+    font-family: 'Arial', sans-serif;
     flex: 3;
     margin-right: 30px;
   }
