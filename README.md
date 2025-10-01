@@ -21,7 +21,8 @@ The Watchlist page lists the movies and shows I want to watch this fall with the
 The Books page has a list of books I am currently reading and books I want to read. It has a featured section of a book that stands out.
 
 ## What were the HTML elements you used and why did you choose them?
-I used semantic elements:
+### I used semantic elements:
+
 footer- to keep the viewer aware of the page they were on when they scrolled down and couldn't see the nav bar anymore
 section- to keep my page cleanly separated and to help me organize the lists
 article- to create a different style section for the part where I show my Letterboxd top 4
@@ -38,7 +39,7 @@ table- to fulfill the assignment requirement and create variation in how I prese
 ## What CSS styles did you apply to change the visual design of those HTML elements?
 I changed global styles like heading and main text fonts to Parisienne and Lora. I also changed the background color and accent colors to be white and dark blue for readability. 
 
-I styled the <nav> to stretch across the full width of the screen and centered the links using Flexbox. I styled links to be white with bold text and highlighted them to turn orange on hover, and underlined them to show the active page. To style span classes, I created .upcoming (italic, red text) and .watched (yellow, line-through) so I could highlight or cross off list items. As for article and aside, I gave <aside> a greyer background, border, rounded corners, and subtle shadow so it looks highlighted (subtly). I made the article clean with Arial font to differentiate it. 
+I styled the navbar to stretch across the full width of the screen and centered the links using Flexbox. I styled links to be white with bold text and highlighted them to turn orange on hover, and underlined them to show the active page. To style span classes, I created .upcoming (italic, red text) and .watched (yellow, line-through) so I could highlight or cross off list items. As for article and aside, I gave <aside> a greyer background, border, rounded corners, and subtle shadow so it looks highlighted (subtly). I made the article clean with Arial font to differentiate it. 
 
 For the table, I used borders, centered text, padding, and made the top row blue so it looks like a real data table.
 
