@@ -60,6 +60,25 @@ h2 {
     text-decoration: line-through;
     color: rgb(196, 202, 32);
   }
+  article {
+    flex: 3;
+    margin-right: 20px;
+  }
+  
+  /* style article and aside */
+  article {
+    flex: 3;
+    margin-right: 30px;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 4px solid #011936;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
   
   /* table styles */
   table {
